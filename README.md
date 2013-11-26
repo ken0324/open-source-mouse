@@ -11,7 +11,16 @@ This document is made by [gitfab](http://gitfab.org)
 　−自分の手に馴染んでくる．</br>
 　−愛着が湧いてくる．</br>
 
+
 ![openmouse.jpg](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/openmouse.jpg)
 ---
+
+---
+#マウスホイール
+
+マウスホイールによるスクロール = 進むこと、歩くこと
+
+ − 進むほどすり減るマウスホイール </br>
+ − 情報量によって重くなるマウスホイール </br>
 
 ---
