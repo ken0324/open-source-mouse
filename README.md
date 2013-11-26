@@ -11,8 +11,7 @@ This document is made by [gitfab](http://gitfab.org)
 　−自分の手に馴染んでくる．<br>
 　−愛着が湧いてくる．<br>
 
-
-![mouse-01.jpg](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/mouse-01.jpg)
+![mouse--01.jpg](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/mouse--01.jpg)
 ---
 
 ---
