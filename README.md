@@ -21,7 +21,14 @@ This document is made by [gitfab](http://gitfab.org)
 
  − 進むほどすり減るマウスホイール <br>
  − 情報量によって重くなるマウスホイール →プロトタイプ作成しました(12/3)<br>
-　
+　<br>
+①<a href="http://akizukidenshi.com/catalog/g/gM-01905/">サーボモータ PICO/STD/F(GWS社製)</a>を使用<br>
+②マウスを開けて、ホイールにサーボモータのホーンが触れるようにグルーガンでしっかりと固定．<br>
+③サーボモータが入るように、電ノコでマウスの蓋を切る．<br>
+④Arduinoでサーボモータの制御をすることでホイールの重さを制御．<br>
+
+
+
 ![mouse-01.jpg](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/mouse-01.jpg)
 
 [動作の様子（動画）](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/IMG_2853.MOV)
