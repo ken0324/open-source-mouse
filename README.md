@@ -1,5 +1,5 @@
 # open-source-mouse
-## sfc2013-design-strategy   
+## sfc2013-design-strategy    
 This document is made by [gitfab](http://gitfab.org)
 ---
 #すり減るマウス
@@ -20,6 +20,11 @@ This document is made by [gitfab](http://gitfab.org)
 マウスホイールによるスクロール = 進むこと、歩くこと
 
  − 進むほどすり減るマウスホイール <br>
- − 情報量によって重くなるマウスホイール <br>
+ − 情報量によって重くなるマウスホイール →プロトタイプ作成しました(12/3)<br>
+　
+![mouse-01.jpg](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/mouse-01.jpg)
+
+[動作の様子（動画）](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/IMG_2853.MOV)
+
 
 ---
