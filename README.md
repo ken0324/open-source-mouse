@@ -1,5 +1,5 @@
 # open-source-mouse
-## sfc2013-design-strategy     
+## sfc2013-design-strategy      
 This document is made by [gitfab](http://gitfab.org)
 ---
 #すり減るマウス
@@ -32,15 +32,15 @@ This document is made by [gitfab](http://gitfab.org)
 
 ![mouse-01.jpg](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/mouse-01.jpg)
 
-　<a href="http://www.youtube.com/watch?v=7tKLwSLQ5I0&feature=youtu.be">動作の様子（動画）</a>
-
+<iframe width="560" height="315" src="//www.youtube.com/embed/7tKLwSLQ5I0" frameborder="0" allowfullscreen></iframe>
 
 <strong>●プロトタイプ（ソフトウェア）</strong>
 <br>
 　このマウスと連動する簡単なソフトウェアをProcessingで2つ実装<br>
 　[Arduinoのコード]<br>
-　[1]マウスの場所に応じてホイールの重さが変わる（画像左）→[コード]  <a href="http://www.youtube.com/watch?v=5L26mkcaLfo&feature=youtu.be">動画</a><br>
-　[2]スクロールしていくと段々重くなっていく、上に戻すと軽くなる（画像右）→[コード] <a href=" http://youtu.be/Cq4dI2Lq3Bo">動画</a><br>
-<br>
-![mouse_processing-01.jpg](https://raw.github.com/ken0324/open-source-mouse/master/gitfab/resources/mouse_processing-01.jpg)
+　[1]マウスの場所に応じてホイールの重さが変わる（画像左）→[コード]  <br>
+<iframe width="560" height="315" src="//www.youtube.com/embed/5L26mkcaLfo" frameborder="0" allowfullscreen></iframe> <br>
+
+　[2]スクロールしていくと段々重くなっていく、上に戻すと軽くなる（画像右）→[コード] <br>
+<iframe width="560" height="315" src="//www.youtube.com/embed/Cq4dI2Lq3Bo" frameborder="0" allowfullscreen></iframe> <br>
 ---
