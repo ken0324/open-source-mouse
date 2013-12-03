@@ -25,7 +25,7 @@ This document is made by [gitfab](http://gitfab.org)
 ①<a href="http://akizukidenshi.com/catalog/g/gM-01905/">サーボモータ PICO/STD/F(GWS社製)</a>を使用<br>
 ②マウスを開けて、ホイールにサーボモータのホーンが触れるようにグルーガンでしっかりと固定．<br>
 ③サーボモータが入るように、電ノコでマウスの蓋を切る．<br>
-④Arduinoでサーボモータの制御をすることでホイールの重さを制御．<br>
+④Arduinoでサーボモータの角度を制御することでホイールの重さを制御．<br>
 
 
 
