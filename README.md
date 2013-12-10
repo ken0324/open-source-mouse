@@ -15,7 +15,7 @@ This document is made by [gitfab](http://gitfab.org)
 ---
 
 ---
-#マウスホイール
+#重くなるマウスホイール
 
 マウスホイールによるスクロール = 進むこと、歩くこと
 
@@ -39,4 +39,11 @@ This document is made by [gitfab](http://gitfab.org)
 　[1]マウスの場所に応じてホイールの重さが変わる（画像左）→[コード]  <br><iframe width="560" height="315" src="//www.youtube.com/embed/5L26mkcaLfo" frameborder="0"></iframe> <br>
 
 　[2]スクロールしていくと段々重くなっていく、上に戻すと軽くなる（画像右）→[コード] <br><iframe width="560" height="315" src="//www.youtube.com/embed/Cq4dI2Lq3Bo" frameborder="0"></iframe> <br>
+
+
+→どう使うか？<br>
+・情報の重さを感じる．<br>
+・大切な情報を見逃さない．スクロールしていくと，重要な情報，オススメの情報の上でマウスホイールが重くなる．<br>
+・スクロールの限界を示す．ex マップのズーム限界etc <br>
+・<br>
 ---
