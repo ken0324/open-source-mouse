@@ -6,8 +6,6 @@ This document is made by [gitfab](http://gitfab.org)
 ---
 #実装 - ハードウェア
 ---
-
-
 マウスホイールによるスクロール = 進むこと、歩くこと
 
  − 進むほどすり減るマウスホイール <br>
@@ -20,8 +18,6 @@ This document is made by [gitfab](http://gitfab.org)
 
 
 ---
-
-
 <strong>●プロトタイプ（ハードウェア）</strong>
 　<br>
 　①<a href="http://akizukidenshi.com/catalog/g/gM-01905/">サーボモータ PICO/STD/F(GWS社製)</a>を使用<br>
@@ -42,9 +38,15 @@ This document is made by [gitfab](http://gitfab.org)
 <br>
 　このマウスと連動する簡単なソフトウェアをProcessingで2つ実装<br>
 　[Arduinoのコード]<br>
-　[1]マウスの場所に応じてホイールの重さが変わる（画像左）→[コード]  <br><iframe width="360" height="240" src="//www.youtube.com/embed/5L26mkcaLfo" frameborder="0"></iframe> <br>
+　[1]マウスの場所に応じてホイールの重さが変わる（画像左）→
+[コード](https://raw.github.com/ken0324/open-source-mouse/Wheel-Heavy-Mouse/gitfab/resources/openmouse2.zip) 
+ <br><iframe width="360" height="240" src="//www.youtube.com/embed/5L26mkcaLfo" frameborder="0"></iframe> <br>
 
-　[2]スクロールしていくと段々重くなっていく、上に戻すと軽くなる（画像右）→[コード] <br><iframe width="360" height="240" src="//www.youtube.com/embed/Cq4dI2Lq3Bo" frameborder="0"></iframe> <br>
+　[2]スクロールしていくと段々重くなっていく、上に戻すと軽くなる（画像右）→[コード](https://raw.github.com/ken0324/open-source-mouse/Wheel-Heavy-Mouse/gitfab/resources/openmouse.zip)<br><iframe width="360" height="240" src="//www.youtube.com/embed/Cq4dI2Lq3Bo" frameborder="0"></iframe> <br>
+
+
+
+
 
 
 
