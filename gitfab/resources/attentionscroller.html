@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <title>Wheel Heavy Mouse - Attention Scroller</title>
+    <style type="text/css">
+    html {
+        background-color: white;
+    }
+    </style>
+
+    <script src="js/jquery-1.7.2.min.js"></script>
+  
+
+    <script type="text/javascript">
+    window.onscroll=getsclXY; //onscrollイベントが発生したら、
+    
+        var PIN = 13; //サーボモータが接続されたデジタルピン
+        var arduino = null;
+        arduino.open("/dev/cu.usbmodem1411"); //自分のarduinoのシリアルポートに設定
+        arduino.pinMode(PIN, true);
+                    
+function getsclXY(){
+ sclTop=document.body.scrollTop || document.documentElement.scrollTop;
+   document.getElementById("sclT_Val").innerHTML=sclTop+"px";
+   
+   
+            $(document).ready(function() {
+            
+            
+            
+            if(sclTop>4300 && sclTop < 5000){  //摩擦がかかって欲しいスクロール位置
+               arduino = document.arduino;
+				var value = Math.floor(490); //ホイールに摩擦がかかるサーボモータの角度
+				var ontime = value+500;
+                var offtime = 20000 - ontime;
+                arduino.pulse(PIN, ontime, offtime);
+} else {
+arduino = document.arduino;
+				var value = Math.floor(550); //ホイール摩擦がかからないサーボモータの角度
+				var ontime = value+500;
+                var offtime = 20000 - ontime;
+                arduino.pulse(PIN, ontime, offtime);
+}
+                
+                    });
+  
+       }
+    
+    
+
+
+            </script>
+
+    
+</head>
+<body>
+Attention Scroller 
+<table border="1" cellpadding="5" style="margin-top : 200px;">
+ <tr>
+  <th colspan="2">ブラウザのページのスクロール量</th>
+ </tr>
+ <tr>
+  <td>scrollTop； ブラウザ画面,上から</td>
+  <td id="sclT_Val">0</td>
+ </tr>
+</table>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p><font color="#ff0000">●●●●●●●●●●</font></p> //ここでホイールに摩擦がかかる
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    
+     </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+    </br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>●●●●●●●●●●</p>
+
+</body>
+</html>
