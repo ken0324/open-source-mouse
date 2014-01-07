@@ -32,9 +32,9 @@ This document is made by [gitfab](http://gitfab.org)
 <iframe width="360" height="240" src="//www.youtube.com/embed/7tKLwSLQ5I0" frameborder="0"></iframe>
 
 ---
-#実装 - ソフトウェア
+#実装 - ソフトウェア（Processing）
 
-<strong>●プロトタイプ（ソフトウェア）</strong>
+<strong>●ProcessingによるPCとの連携</strong>
 <br>
 　このマウスと連動する簡単なソフトウェアをProcessingで2つ実装<br>
 　[Arduinoのコード]<br>
@@ -48,6 +48,32 @@ This document is made by [gitfab](http://gitfab.org)
 
 
 
+
+
+---
+#実装 - ソフトウェア（Web）
+以下の赤塚さんのコメントを参考にJavaScriptでArduinoと連携させることを試みた．<br>
+
+<font size="1">
+http://www.mecha-mozilla.org/projects/arduino.js/
+を使ってみてください！<br>
+使い方やセットアップは同ページに書いてありますが、簡単にセットアップ方法をお伝えすると、<br>
+
+１．https://github.com/mecha-mozilla/arduino.js/blob/master/core/sketch/CommandServer/CommandServer.ino を Arduino に焼く<br>
+２．http://www.mecha-mozilla.org/projects/arduino.js/arduino-js.xpi を Firefox にドラッグ&ドロップする<br>
+</font>
+
+
+①上記と同様のコードをArduinoにアップロード．<br>
+
+②JavaScriptでスクロール位置に応じてArduinoに送るサーボモータの角度を変化させる．
+
+以下，作成したサンプルファイル，<br>
+[attentionscroller.html](https://raw.github.com/ken0324/open-source-mouse/Wheel-Heavy-Mouse/gitfab/resources/attentionscroller.html)<br>
+
+
+動作の様子<br>
+<iframe width="420" height="315" src="//www.youtube.com/embed/o6_0-ZBY39o" frameborder="0" allowfullscreen></iframe>
 
 
 ---
